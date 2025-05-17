@@ -9,7 +9,7 @@ AI Chat Assistants: Ask "Apu" for notes and "Durga" for travel help via chat pop
 Weather Integration: View weather forecasts for each day of your trip.
 Responsive UI: Modern, mobile-friendly design with themed backgrounds and interactive elements.
 
-#Tech Stack
+# Tech Stack
 Frontend: React, Tailwind CSS
 State Management: React hooks
 Database: Firebase Firestore
@@ -17,7 +17,7 @@ UI Components: Custom components, Radix UI, class-variance-authority (CVA)
 Routing: React Router
 Other: Portal for modals, custom fonts
 
-#Getting Started
+# Getting Started
 Prerequisites
 Node.js (v18+ recommended)
 npm or yarn
@@ -41,7 +41,7 @@ VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
 VITE_FIREBASE_PROJECT_ID=your_project_id
 
 
-#Usage
+# Usage
 Add a Place: Click "Add" on any day to add a custom activity or spot.
 Save Changes: Click "Save Changes" to persist your edits.
 Ask Apu: Click the Apu image for trip notes and tips.
@@ -49,7 +49,7 @@ Ask Durga: Use the chat button to get AI-powered travel help.
 View Budget: See the estimated budget in the popup modal.
 
 
-#Customization
+# Customization
 Backgrounds: Replace images in public/backgrounds/ for a different look.
 Fonts: Customize fonts in the Tailwind config or inline styles.
 UI Components: Modify or extend components in src/components/ui/.

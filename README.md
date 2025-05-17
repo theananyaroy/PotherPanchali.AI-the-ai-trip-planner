@@ -24,7 +24,7 @@ npm or yarn
 Firebase project (for Firestore)
 Installation:
 1. Clone the repository:
-   git clone https://github.com/royananya605/pother-panchali.git
+   git clone https://github.com/royananya605/PotherPanchali.AI-the-ai-trip-planner.git
    cd pother-panchali
    
 3. Install dependencies:

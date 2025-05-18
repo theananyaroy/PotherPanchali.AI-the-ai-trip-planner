@@ -30,7 +30,7 @@ import { useNavigate, useNavigation, useRouteError } from 'react-router-dom';  /
 
 
 
-const API_KEY = "AIzaSyC8oQwBjWG5ZjC34jEpj10BKGb3YnY_sCQ"; // Replace with your actual API Key
+const API_KEY = import.meta.env.VITE_GOOGLE_PLACES_API_KEY; // Replace with your actual API Key
 const AUTOCOMPLETE_URL = "https://places.googleapis.com/v1/places:autocomplete";
 const PLACE_DETAILS_URL = "https://places.googleapis.com/v1/places/";
 

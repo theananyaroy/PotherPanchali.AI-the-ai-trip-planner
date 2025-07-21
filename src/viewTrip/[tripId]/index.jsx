@@ -12,7 +12,7 @@ import fetchDistanceMatrix from "@/service/Djikstra";
 
 const PHOTO_REF_URL =
   "https://places.googleapis.com/v1/{NAME}/media?maxHeightPx=445&maxWidthPx=640&key=" +
-  "AIzaSyC8oQwBjWG5ZjC34jEpj10BKGb3YnY_sCQ";
+  "your env_key";
 
 function ViewTrip() {
 
@@ -58,7 +58,7 @@ function ViewTrip() {
   const [predictions, setPredictions] = useState({});
   const [showPopup, setShowPopup] = useState(false);
 
-  const API_KEY = "AIzaSyC8oQwBjWG5ZjC34jEpj10BKGb3YnY_sCQ";
+  const API_KEY = "your evn key";
   const AUTOCOMPLETE_URL =
     "https://places.googleapis.com/v1/places:autocomplete";
   const PLACE_DETAILS_URL = "https://places.googleapis.com/v1/places/";

@@ -5,7 +5,7 @@ const BASE_URL="https://places.googleapis.com/v1/places:searchText"
 const config={
     headers:{
         'Content-Type':'application/json',
-        'X-Goog-Api-Key':"AIzaSyC8oQwBjWG5ZjC34jEpj10BKGb3YnY_sCQ",
+        'X-Goog-Api-Key':" your env_key",
         'X-Goog-FieldMask':"places.photos,places.displayName,places.id",
                     
     }

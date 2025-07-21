@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const AMADEUS_API_KEY = "PIoDs2DiC7nJAeWK5VvVbxNwIhGP6gCG";
+const AMADEUS_API_KEY = "your evn key";
 const AMADEUS_API_SECRET = "FlnwyDzgyFk03Kbu";
 const AMADEUS_AUTH_URL =
   "https://test.api.amadeus.com/v1/security/oauth2/token";

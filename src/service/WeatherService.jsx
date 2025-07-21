@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const WEATHER_API_KEY = import.meta.env.VITE_WEATHER_API_KEY;
+const WEATHER_API_KEY = "0ec8a4e8bdf44f2c854141127251205"; // Replace with your API Key
 const BASE_URL = "http://api.weatherapi.com/v1/forecast.json";
 
 /**

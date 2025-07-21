@@ -1,7 +1,7 @@
 import axios from "axios";
 
-const AMADEUS_API_KEY = import.meta.env.VITE_AMADEUS_API_KEY;
-const AMADEUS_API_SECRET = import.meta.env.VITE_AMADEUS_API_SECRET;
+const AMADEUS_API_KEY = "PIoDs2DiC7nJAeWK5VvVbxNwIhGP6gCG";
+const AMADEUS_API_SECRET = "FlnwyDzgyFk03Kbu";
 const AMADEUS_AUTH_URL =
   "https://test.api.amadeus.com/v1/security/oauth2/token";
 const AMADEUS_FLIGHT_URL =
